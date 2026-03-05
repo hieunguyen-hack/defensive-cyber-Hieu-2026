@@ -1,1 +1,2 @@
-
+in this activity, I have searched a website: https://itbrief.com.au/story/cyber-experts-warn-of-public-wi-fi-risks-in-australia talking about all the risks coming from public places like retail, services, airplane, park ...
+they mentioned a lot of cyber concepts like MITM Attack, credential harvesting and evil twin attack
