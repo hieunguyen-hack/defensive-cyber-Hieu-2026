@@ -10,6 +10,7 @@ NDR: Network detection and response: use non-signature-based methods—such as a
 <img width="480" height="262" alt="image" src="https://github.com/user-attachments/assets/bee4da24-394b-410e-9d70-fe1deb6e481f" />
 source: https://www.ibm.com/think/topics/ndr
 
+
 2. AI-driven Endpoint Security (EDR):
 
 <img width="1024" height="683" alt="image" src="https://github.com/user-attachments/assets/cfd13acd-49c8-4433-8f43-93b984e6079f" />
@@ -17,12 +18,14 @@ Endpoint detection and response, or EDR, is software that uses real-time analyti
 source: https://www.ibm.com/think/topics/edr
 difference: EDR (Endpoint Detection & Response): focuses on devices
             NDR (Network Detection & Response): focuses on network traffic
-   
+
+
 3. AI-based Email & Phishing Protection:
 
 Abnormal Security, Microsoft Defender for Office
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/eeecd49a-1fa5-4e64-9c3f-4b1aaa6aedf7" />
 Uses NLP and behavioral analytics to detect phishing and spear-phishing emails.
+
 
 4. Extended Detection & Response (XDR):
 
@@ -31,6 +34,7 @@ By breaking down security silos, XDR provides end-to-end visibility, AI-powered 
 XDR uses AI to analyze security data by learning normal behavior, detecting unusual activity (anomalies), recognizing known attack patterns, and linking multiple events into a single attack. It then prioritizes threats and can automatically respond, such as isolating infected devices.
 <img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/af3d16b3-06ec-4bc9-bfbc-2e69ff0d018a" />
 source: https://www.microsoft.com/en-au/security/business/solutions/extended-detection-response-xdr
+
 
 5. Security Orchestration, Automation, and Response (SOAR):
 
