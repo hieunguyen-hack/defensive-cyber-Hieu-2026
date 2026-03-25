@@ -1,4 +1,4 @@
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ac8d6e71-4e4a-4d73-b3b3-f1ff225023fc" />1. AI-powered Threat Detection & Response (NDR/XDR):
+1. AI-powered Threat Detection & Response (NDR/XDR):
 
 Example: Darktrace, Palo Alto Cortex XDR
 What it does: Uses machine learning to analyze network traffic and detect anomalies in real time.
