@@ -1,1 +1,2 @@
-
+So i finished a module in an online Coursera course about cyber security by Google, the 1st module which is pretty easy, they introduce about the roles in cyber security, a life of a security engineer, the definitions of cyber security terms, like CIA, and the technology terms like coding, python,sql, also they give some advices that we don't need uni degrees to dive into cyber security successfuly, also what requires the most is not only technical but communication and problem solving, cause they usually working in a team with other departments.
+I learn about SPII Sensitive Personally Identifiable Information which is about email, medical number, security social number, theft, phising, they give me real cases, real potential emails of phising...
