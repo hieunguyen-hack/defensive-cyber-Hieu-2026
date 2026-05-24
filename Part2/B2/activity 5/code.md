@@ -79,18 +79,24 @@ blockchain_system.collect_signature(new_tx, "Node_C")
 blockchain_system.commit_transaction(new_tx)
 
 print("\n--- Scenario 3: Unauthorized entity attempts to sign ---")
+rogue_tx = BlockchainTransaction(sender="Malicious_Actor", receiver="Eve", amount=10000)
+blockchain_system.collect_signature(rogue_tx, "Unregistered_Attacker_Node")
+blockchain_system.commit_transaction(rogue_tx)
 
 Core Principles of Blockchain Quorums:
+
 +) Fault Tolerance (BFT / CFT): By using a quorum threshold, the system can tolerate up to $N - Q$ offline or faulty nodes. 
 In a 5-node system with a quorum requirement of 3, up to 2 nodes can experience hardware failure simultaneously without stalling the blockchain network.
+
 +) Double-Spend Prevention: Because a quorum requires a strict absolute majority, it is mathematically impossible
 for two conflicting transactions (such as spending the exact same coins twice) to achieve a valid quorum at the same time on the same state layer.
+
 +) Cryptographic Proof: In enterprise platforms like Hyperledger Fabric or Corda, this logic is handled using Endorsement Policies.
 Transactions are compiled with actual cryptographic signatures from distinct organizations before being processed by the orderer node.
 
 Real - world implementation:
-Multi-Signature Smart Contracts (Solidity): Used on public networks to secure treasury wallets (e.g., Gnosis Safe).
+
+Multi-Signature Smart Contracts (Solidity):
+Used on public networks to secure treasury wallets (e.g., Gnosis Safe).
 The contract maintains an array of owner addresses and a required integer variable, explicitly verifying signatures inside an executeTransaction loop.
-rogue_tx = BlockchainTransaction(sender="Malicious_Actor", receiver="Eve", amount=10000)
-blockchain_system.collect_signature(rogue_tx, "Unregistered_Attacker_Node")
-blockchain_system.commit_transaction(rogue_tx)
+
